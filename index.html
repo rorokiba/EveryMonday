@@ -28,19 +28,24 @@
       text-decoration: none;
       color: #333;
       font-weight: 600;
+      text-transform: uppercase;
     }
 
-    .title {
+    .hero {
       text-align: center;
-      font-size: 48px;
+      padding: 100px 20px 60px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
       font-weight: 900;
-      margin: 80px 0 60px 0;
       letter-spacing: 0.05em;
+      margin: 0;
     }
 
     .container {
       max-width: 600px;
-      margin: 0 auto;
+      margin: 40px auto 60px;
       padding: 0 20px;
     }
 
@@ -49,7 +54,7 @@
     }
 
     .section h2 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       font-weight: 700;
       margin: 0 0 8px 0;
       color: #111;
@@ -65,12 +70,16 @@
 <body>
 
   <div class="navbar">
-    <a href="#">Home</a>
+    <a href="#">HOME</a>
     <a href="#toc">TOC</a>
   </div>
 
-  <div class="title">EVERY MONDAY</div>
+  <!-- Hero: 첫 페이지 -->
+  <div class="hero">
+    <h1>EVERYMONDAY</h1>
+  </div>
 
+  <!-- 목차 페이지 -->
   <div class="container" id="toc">
     <div class="section">
       <h2>01. QUESTION - 0 AND 1</h2>
